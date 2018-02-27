@@ -15,3 +15,16 @@ var RNA = DNA.replace(/T/g,'U');
 
 console.log("RNA:", RNA); //SHOULD PRINT OUT "GCAU"
 
+
+//CHALLENGE #4
+//var animal = "Goat"; //should print out wide
+var animal = "allIGator"; //should print out small
+
+if (animal.toLowerCase() === "alligator") {
+  console.log("small");
+}
+else {
+  console.log("wide");
+}
+
+

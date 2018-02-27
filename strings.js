@@ -22,9 +22,14 @@ var animal = "allIGator"; //should print out small
 
 if (animal.toLowerCase() === "alligator") {
   console.log("small");
+  // debugger;
 }
 else {
   console.log("wide");
 }
 
-
+//SEPARATE STUFF
+var yarn = "the better string";
+var domString = "<h4>" + yarn +"</h4>";
+var myDiv = document.getElementById('basket');
+myDiv.innerHTML = domString;

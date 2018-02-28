@@ -32,4 +32,21 @@ else {
 var yarn = "the better string";
 var domString = "<h4>" + yarn +"</h4>";
 var myDiv = document.getElementById('basket');
-myDiv.innerHTML = domString;
+// myDiv.innerHTML = domString;
+
+
+// CHALLENGE 5
+// var str = "IBMWLOVEbmwcatsbmw";
+// var cStr = str.toLowerCase();
+// var myStr = cStr.replace(/[bmw]/g, " ");
+// console.log(myStr);
+// document.getElementById("#basket").innerHTML("<h1>" + myStr + "</h1>");
+
+var str = "IBMWLOVEbmwcatsbmw";
+var cats = str.replace(/[BMWbmw]/g, '');
+console.log("cats", cats);
+var catStr = "<h1>" + cats + "</h1>";
+var catElement = document.getElementById("basket");
+catElement.innerHTML = catStr;
+
+
